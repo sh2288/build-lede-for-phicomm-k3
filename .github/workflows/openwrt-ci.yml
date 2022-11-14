@@ -83,7 +83,9 @@ jobs:
           # sed -i "/helloworld/d" "feeds.conf.default"
           # echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
           echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> "feeds.conf.default"
-          echo "src-git small https://github.com/kenzok8/small" >> "feeds.conf.default"
+          echo "src-git kenzo https://github.com/xiaorouji/openwrt-passwall"  >> "feeds.conf.default"
+          #echo "src-git opentopd  https://github.com/sirpdboy/sirpdboy-package"  >> "feeds.conf.default"
+          #echo "src-git small https://github.com/kenzok8/small" >> "feeds.conf.default"
           # 不用这个替换命令来取消#注释了，lede最新仓库已经把"#src-git helloworld"这行给删了
           # sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
           
